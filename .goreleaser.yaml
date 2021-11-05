@@ -6,11 +6,12 @@ builds:
     id: "template-application"
     binary: "template-application"
     ldflags:
-      - -s -w -X main.version={{.Version}}
-      - -X main.commit={{.ShortCommit}}
-      - -X main.date={{.Date}}
-      - -X main.builtBy={{.Env.GITHUB_WORKFLOW}}/{{.Env.GITHUB_RUN_ID}}
-      - -X main.binName={{.Binary}}
+      - -s -w
+      - -X 'main.version={{.Version}}'
+      - -X 'main.commit={{.ShortCommit}}'
+      - -X 'main.date={{.Date}}'
+      - -X 'main.builtBy={{.Env.GITHUB_WORKFLOW}}/{{.Env.GITHUB_RUN_ID}}'
+      - -X 'main.binName={{.Binary}}'
     env:
       - CGO_ENABLED=0
     goos:
