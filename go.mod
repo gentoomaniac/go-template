@@ -1,4 +1,4 @@
-module github.com/gentoomaniac/gop2p
+module github.com/gentoomaniac/go-template
 
 go 1.17
 

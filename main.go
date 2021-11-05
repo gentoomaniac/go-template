@@ -24,7 +24,7 @@ var cli struct {
 	Run struct {
 	} `cmd:"" help:"Run the application (default)." default:"1" hidden:""`
 
-	Version gocli.VersionFlag `short:"v" help:"Display version."`
+	Version gocli.VersionFlag `short:"V" help:"Display version."`
 }
 
 func main() {
