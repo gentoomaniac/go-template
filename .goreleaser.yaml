@@ -3,7 +3,7 @@ before:
   hooks:
     - go mod download
 builds:
-  - main: .
+  - main: ./cmd/go-template
     id: "template-application"
     binary: "template-application"
     ldflags:
