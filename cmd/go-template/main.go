@@ -4,8 +4,9 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/rs/zerolog/log"
 
-	"github.com/gentoomaniac/gocli"
-	"github.com/gentoomaniac/logging"
+	gocli "github.com/gentoomaniac/go-template/pkg/cli"
+	"github.com/gentoomaniac/go-template/pkg/gotemplate"
+	"github.com/gentoomaniac/go-template/pkg/logging"
 )
 
 var (
@@ -41,7 +42,7 @@ func main() {
 	case "foo":
 		log.Info().Msg("foo command")
 	default:
-		log.Info().Msg("Default command")
+		gotemplate.DoSomething()
 	}
 	ctx.Exit(0)
 }
