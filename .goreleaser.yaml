@@ -1,3 +1,4 @@
+version: 2
 before:
   hooks:
     - go mod download
@@ -37,7 +38,7 @@ checksum:
   algorithm: sha256
 
 snapshot:
-  name_template: "snapshot"
+  version_template: "{{ incpatch .Version }}-devel"
 
 changelog:
   sort: asc
@@ -48,3 +49,11 @@ changelog:
       - '^hack:'
       - '^chore:'
       - '^Merge pull request'
+
+nfpms:
+- maintainer: Marco Siebecke <marco@siebecke.se>
+  description: go template repo package
+  homepage: https://github.com/gentoomaniac/go-template
+  license: MIT
+  formats:
+  - deb
