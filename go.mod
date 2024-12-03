@@ -3,7 +3,7 @@ module github.com/gentoomaniac/go-template
 go 1.22
 
 require (
-	github.com/alecthomas/kong v1.4.0
+	github.com/alecthomas/kong v1.5.1
 	github.com/rs/zerolog v1.33.0
 )
 
