@@ -4,9 +4,8 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/rs/zerolog/log"
 
-	gocli "github.com/gentoomaniac/go-template/pkg/cli"
-	"github.com/gentoomaniac/go-template/pkg/gotemplate"
-	"github.com/gentoomaniac/go-template/pkg/logging"
+	gocli "github.com/{{cookiecutter.github_slug}}/{{cookiecutter.project_name}}/pkg/cli"
+	"github.com/{{cookiecutter.github_slug}}/{{cookiecutter.project_name}}/pkg/logging"
 )
 
 var (

@@ -1,0 +1,8 @@
+{
+    "project_name": "go-template",
+    "github_slug": "gentoomaniac",
+	"license": "MIT",
+    "go_version": "1.22",
+	"author": "Marco Siebecke",
+	"email": "marco@siebecke.se"
+}

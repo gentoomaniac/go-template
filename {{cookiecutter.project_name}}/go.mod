@@ -1,6 +1,6 @@
-module github.com/gentoomaniac/go-template
+module github.com/gentoomaniac/{{ cookiecutter.project_name }}
 
-go 1.22
+go {{ cookiecutter.go_version }}
 
 require (
 	github.com/alecthomas/kong v1.6.0
