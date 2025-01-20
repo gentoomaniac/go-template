@@ -1,5 +1,6 @@
 {
     "project_name": "go-template",
+    "description": "project description",
     "github_slug": "gentoomaniac",
 	"license": "MIT",
     "go_version": "1.22",

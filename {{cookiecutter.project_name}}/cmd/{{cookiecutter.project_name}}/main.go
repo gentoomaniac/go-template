@@ -41,7 +41,7 @@ func main() {
 	case "foo":
 		log.Info().Msg("foo command")
 	default:
-		gotemplate.DoSomething()
+		log.Debug().Msg("default command")
 	}
 	ctx.Exit(0)
 }
