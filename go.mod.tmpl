@@ -1,4 +1,4 @@
-module github.com/{{ .GithubOwner }}/{{ .ProjectName }}
+module github.com/{{ .GithubOwner }}/{{ .ProjectName | ToPascalCase }}
 
 go {{ .GoVersion }}
 
