@@ -4,9 +4,9 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/rs/zerolog/log"
 
-	gocli "github.com/<-- .GithubOwner -->/<-- .ProjectName | ToPascalCase -->/pkg/cli"
-	"github.com/<-- .GithubOwner -->/<-- .ProjectName | ToPascalCase -->/pkg/gotemplate"
-	"github.com/<-- .GithubOwner -->/<-- .ProjectName | ToPascalCase -->/pkg/logging"
+	"github.com/<-- .GithubOwner -->/<-- .ProjectName -->/pkg/gotemplate"
+	"github.com/<-- .GithubOwner -->/<-- .ProjectName -->/pkg/logging"
+	gocli "github.com/<-- .GithubOwner -->/<-- .ProjectName | ToLower -->/pkg/cli"
 )
 
 var (
