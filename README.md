@@ -4,6 +4,8 @@
 
 This is a template go repository with actions already set up to create compiled releases
 
+It uses (project-generator)[https://github.com/gentoomaniac/project_generator] to render (not yet released)
+
 ## What does this Template provide?
 
 * a basic cli application with subcommands based on [Kong](https://github.com/alecthomas/kong)

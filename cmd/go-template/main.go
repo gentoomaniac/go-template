@@ -4,9 +4,9 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/rs/zerolog/log"
 
-	gocli "github.com/gentoomaniac/go-template/pkg/cli"
-	"github.com/gentoomaniac/go-template/pkg/gotemplate"
-	"github.com/gentoomaniac/go-template/pkg/logging"
+	gocli "github.com/<-- .GithubOwner -->/<-- .ProjectName | ToPascalCase -->/pkg/cli"
+	"github.com/<-- .GithubOwner -->/<-- .ProjectName | ToPascalCase -->/pkg/gotemplate"
+	"github.com/<-- .GithubOwner -->/<-- .ProjectName | ToPascalCase -->/pkg/logging"
 )
 
 var (
@@ -20,10 +20,8 @@ var (
 var cli struct {
 	logging.LoggingConfig
 
-	Foo struct {
-	} `cmd:"" help:"FooBar command"`
-	Run struct {
-	} `cmd:"" help:"Run the application (default)." default:"1" hidden:""`
+	Foo struct{} `cmd:"" help:"FooBar command"`
+	Run struct{} `cmd:"" help:"Run the application (default)." default:"1" hidden:""`
 
 	Version gocli.VersionFlag `short:"V" help:"Display version."`
 }
