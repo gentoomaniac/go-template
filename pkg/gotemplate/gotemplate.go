@@ -1,4 +1,4 @@
-package gotemplate
+package <-- .ProjectName -->
 
 import (
 	"github.com/rs/zerolog/log"

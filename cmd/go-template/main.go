@@ -4,7 +4,7 @@ import (
 	"github.com/alecthomas/kong"
 	"github.com/rs/zerolog/log"
 
-	"github.com/<-- .GithubOwner -->/<-- .ProjectName -->/pkg/gotemplate"
+	"github.com/<-- .GithubOwner -->/<-- .ProjectName -->/pkg/<-- .ProjectName -->"
 	"github.com/<-- .GithubOwner -->/<-- .ProjectName -->/pkg/logging"
 	gocli "github.com/<-- .GithubOwner -->/<-- .ProjectName | ToLower -->/pkg/cli"
 )
